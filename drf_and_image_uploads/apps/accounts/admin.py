@@ -9,5 +9,5 @@ class UserAdmin(UserAdminBase):
     readonly_fields = ["username"]
 
     fieldsets = list(UserAdminBase.fieldsets) + [
-        (_("Extra"), {"fields": ["bio", "avatar"]})
+        (_("Extra"), {"fields": ["bio", "raster"]})
     ]

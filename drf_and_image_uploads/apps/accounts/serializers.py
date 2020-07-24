@@ -5,12 +5,12 @@ from rest_framework.serializers import ModelSerializer
 User = get_user_model()
 
 
-class UserAvatarSerializer(ModelSerializer):
+class RasterSerializer(ModelSerializer):
     class Meta:
         model = User
-        fields = ["avatar"]
+        fields = ["raster"]
 
     def save(self, *args, **kwargs):
-        if self.instance.avatar:
-            self.instance.avatar.delete()
+        # if self.instance.raster:
+        #     self.instance.raster.delete()
         return super().save(*args, **kwargs)

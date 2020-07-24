@@ -60,7 +60,7 @@ class User(AbstractUser):
     # change email to unique and required field
     email = models.EmailField(_("email address"), unique=True)
 
-    avatar = models.ImageField(_("Avatar"), upload_to=upload_to, blank=True)
+    raster = models.ImageField(_("Raster"), upload_to=upload_to, blank=True)
 
     bio = models.TextField(_("Bio"), blank=True)
 

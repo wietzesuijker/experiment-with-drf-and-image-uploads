@@ -1,0 +1,42 @@
+conda activate py38
+pip install django
+pip install djangorestframework
+cd python
+mkdir django
+cd django
+mkdir django-file-upload
+django-admin startproject fileuploadexample .
+cd django-file-upload
+python manage.py startapp uploadapp
+cd ..
+python manage.py startapp uploadapp
+python manage.py migrate
+pip install Pillow
+exicd ..
+cd ..
+cd GitHub\drg-image-uploads
+pip install requirements.txt
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py makemigrations
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+get-process | tee -filepath C:\Users\wietze.suijker\file.txt
+tee -filepath C:\Users\wietze.suijker\file.txt
+ver > output.txt
+doskey /HISTORY > history.txt
+doskey /HISTORY > C:\Users\wietze.suijker\GitHub\drg-image-uploads\history.txt
